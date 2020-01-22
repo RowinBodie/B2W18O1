@@ -7,14 +7,14 @@ a{
     text-decoration: none;
 }
 #colorBlock{
+    width: 100%;
     background-color: rgb(201, 122, 18);
     height: 90px;
+    position: fixed;
 }
 #colorBlock>ul{
-    display: inline-block;
-}
-#colorBlock>ul>li{
     display: none;
+    margin-top: 200px;
 }
 #colorBlock>i{
     font-size: 2rem;
@@ -24,10 +24,14 @@ a{
     margin-left: 15px;
     margin-top: 13px;
 }
+#bars:hover > #uitklapmenu{
+    display: block;
+}
 nav>ul{
     display: none;
 }
 nav{
+    padding-top: 90px;
     height: 90px;
 }
 nav>i{
@@ -54,21 +58,21 @@ nav>i{
     margin-top: 2rem;
     width: 80%;
 }
-#proefles>div,#location>div{
+#proefles>div,#location>div,#rijlessen>div{
     padding-left: 2rem;
 }
-#proefles>div>i,#location>div>i{
+#proefles>div>i,#location>div>i,#rijlessen>div>i{
     color: rgb(103, 103, 105);
     font-size: 1.5rem;
     display: inline-block;
 }
-#proefles>div>h3,#location>div>h3{
+#proefles>div>h3,#location>div>h3,#rijlessen>div>h3{
     display: inline-block;
     font-size: 1rem;
     margin-bottom: 1rem;
     color: rgb(103, 103, 105);
 }
-#proefles>p,#location>p{
+#proefles>p,#location>p,#rijlessen>p{
     padding-top: 20px;
     padding-left: 1rem;
     margin-left: 1rem;
@@ -85,4 +89,28 @@ button{
     background-color: rgb(201, 122, 18);
     border: 0;
     margin-bottom: 2rem;
+}
+iframe{
+    margin-left: 10%;
+    width: 80%;
+    height: 10em;
+}
+@media (min-width:678px){
+    #colorBlock>i{
+        display: none;
+    }
+    #colorBlock{
+        height: 2rem;
+        background-color: rgb(8, 119, 119);
+    }
+    #logo{
+        float: left;
+        width: 20%;
+        margin-left: 4rem;
+    }
+    iframe{
+        margin-left: 10%;
+        width: 80%;
+        height: 25rem;
+    }
 }
