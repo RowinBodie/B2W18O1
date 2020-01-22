@@ -1,0 +1,88 @@
+*{
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Archivo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#colorBlock{
+    background-color: rgb(201, 122, 18);
+    height: 90px;
+}
+#colorBlock>ul{
+    display: inline-block;
+}
+#colorBlock>ul>li{
+    display: none;
+}
+#colorBlock>i{
+    font-size: 2rem;
+    padding: 0.3rem 1rem;
+    border: lavender solid 1px;
+    color: lavender;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+nav>ul{
+    display: none;
+}
+nav{
+    height: 90px;
+}
+nav>i{
+    font-size: 2rem;
+    padding: 0.3rem 1rem;
+    border: rgb(103, 103, 105) solid 1px;
+    color: rgb(103, 103, 105);
+    margin-left: 15px;
+    margin-top: 13px;
+}
+#logo{
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-right: 0.5rem;
+    top: 1rem;
+    right: 0.1rem;
+}
+#slideshow{
+    width: 100%;
+    height: 10rem;
+}
+#proefles{
+    margin-top: 2rem;
+    width: 80%;
+}
+#proefles>div,#location>div{
+    padding-left: 2rem;
+}
+#proefles>div>i,#location>div>i{
+    color: rgb(103, 103, 105);
+    font-size: 1.5rem;
+    display: inline-block;
+}
+#proefles>div>h3,#location>div>h3{
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(103, 103, 105);
+}
+#proefles>p,#location>p{
+    padding-top: 20px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    width: 16rem;
+    border-top: solid 1px rgb(103, 103, 105);
+    margin-bottom: 2rem;
+}
+button{
+    margin-top: 1rem;
+    margin-left: 10%;
+    width: 80%;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(201, 122, 18);
+    border: 0;
+    margin-bottom: 2rem;
+}
