@@ -81,22 +81,22 @@ nav>i{
 #proefles{
     margin-top: 2rem;
 }
-#proefles>div,#location>div,#rijlessen>div{
+#proefles>div,#locaties>div,#rijlessen>div{
     padding-left: 2rem;
     width: 100%;
 }
-#proefles>div>i,#location>div>i,#rijlessen>div>i{
+#proefles>div>i,#locaties>div>i,#rijlessen>div>i{
     color: rgb(103, 103, 105);
     font-size: 1.5rem;
     display: inline-block;
 }
-#proefles>div>h3,#location>div>h3,#rijlessen>div>h3{
+#proefles>div>h3,#locaties>div>h3,#rijlessen>div>h3{
     display: inline-block;
     font-size: 1rem;
     margin-bottom: 1rem;
     color: rgb(103, 103, 105);
 }
-#proefles>p,#location>p,#rijlessen>p{
+#proefles>p,#locaties>p,#rijlessen>p{
     padding-top: 20px;
     padding-left: 1rem;
     margin-left: 1rem;
@@ -126,12 +126,22 @@ iframe{
     background-color:  rgb(201, 122, 18);
     padding: 1rem 0;
 }
+#pc{
+    display: none;
+}
+#phone{
+    display: inline-block;
+}
+.up{
+    display: none;
+}
 @media (min-width:778px){
     #colorBlock>i{
         display: none !important;
     }
     #colorBlock{
         height: 2rem;
+        width: 100%;
         background-color: rgb(8, 119, 119);
     }
     #logo{
@@ -152,38 +162,74 @@ iframe{
     }
     #bars1{
         display: none !important;
+        width: 100%;
+        overflow: hidden;
+    }
+    #menu0>:nth-child(1){
+        margin-left: 25%;
     }
     #menu0>li{
         background-color: rgb(8, 119, 119);
         display: inline;
         border: none;
+        font-size: 0.6rem;
         margin-left: 5%;
+        padding-bottom: 0.2rem;
+    }
+    #menu0>li>i{
+        font-size: 0.6rem;
+    }
+    #pc{
+        display: inline-block;
+        width: 26%;
+        margin: 0 0 2rem 1.2rem;
+        font-size: 1rem;
+        background-color: rgb(8, 119, 119);
+    }
+    #phone{
+        display: none;
     }
     #menu0{
         height: 2rem !important;
         padding-left: 20%;
         overflow: hidden;
     }
+    nav{
+        padding: 1.5rem 0 0.5rem 0;
+        height: 6rem;
+    }
     #menu1{
+        padding-top: 2.5rem;
         height: 2rem !important;
+        padding-left: 23rem;
+        width: 36rem;
     }
     #menu1>li{
         position: relative !important;
         display: inline;
         border-top: none;
         border-bottom: none;
-    }
-    nav{
-        padding: 1.5rem 0 0.5rem 0;
-        height: 6rem;
-    }
-    nav>i{
-        font-size: 2rem;
-        padding: 0.3rem 1rem;
-        border: rgb(103, 103, 105) solid 1px;
         color: rgb(103, 103, 105);
-        margin-left: 15px;
-        margin-top: 13px;
-        cursor: pointer;
+        font-size: 0.8rem;
+        margin-left: 0.6rem;
+    }
+    .up{
+        margin-left: 0.5rem !important;
+        margin-bottom: 0.2rem;
+    }
+    #proefles,#locaties,#rijlessen{
+        width: 30%;
+        display: inline-block;
+    }
+    #proefles>p,#locaties>p,#rijlessen>p{
+        font-size: 0.8rem;
+    }
+    #main>div{
+        vertical-align: top;
+        padding-top: 2rem;
+        margin: 0;
+    }
+    #footer{
+        background-color: rgb(8, 119, 119)
     }
 }
